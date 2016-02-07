@@ -1,4 +1,5 @@
 # DocumentationServer
+[![Build Status](https://travis-ci.org/ulve/documentation_server.svg?branch=master)](https://travis-ci.org/ulve/documentation_server)
 
 To start your Phoenix app:
 
