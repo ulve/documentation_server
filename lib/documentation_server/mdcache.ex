@@ -26,6 +26,8 @@ defmodule DocumentationServer.Mdcache do
       {:reply, new_cache, {root, new_cache}}
    end
 
+   # Private functions
+   
    defp read_all(root) do
       wildcard_expression = root <> "/**/*.md"
       {:reply, Path.wildcard(wildcard_expression) |> Enum.map(&read_md/1)}
